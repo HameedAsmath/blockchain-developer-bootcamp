@@ -130,7 +130,6 @@ describe("Token", () => {
           // expect(args.to).to.equal(receiver.address)
           // expect(args.value).to.equal(amount)
           expect(transaction.from).to.equal(exchange.address) 
-         console.log(transaction)  
         })
       })
       describe("Failure",() => {
